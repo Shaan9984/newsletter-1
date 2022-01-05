@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+body{
+    background: linear-gradient(90deg,#dee0e2,#8a4bde);
+}
+
+.wrapper{
+    height: 100vh;
+    position: relative;
+}
+.fas.fa-envelope{
+    color: #fff;
+    font-size: 3rem;
+    background: #8a4bde;
+    padding: 1rem;
+    border-radius: 100%;
+    margin: 0 0 1rem 0;
+}
+.card-content{
+    max-width:30rem;
+    background-color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8rem 8rem 1rem;
+    padding: 4rem 0.5rem;
+    box-shadow: 1px 1px 1rem rgba(10, 1, 48, 0.3);
+    text-align: center;
+}
+
+.card-content h1{
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+    color: #8a4bde;
+    letter-spacing: 2px;
+} 
+
+.card-content p{
+    font-size: 0.8rem;
+    margin: 0 0 2rem 0;
+    color: #a100a1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input{
+    padding: 0.8rem 1rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 0.1rem solid #89bbbd;
+    font-size: 0.7rem;
+}
+
+::placeholder{
+    color: #ccc;
+}
+
+.subscribe-btn{
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, #d493dd,#8a4bde);
+    color: #fff;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
